@@ -1,11 +1,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include <inttypes.h>
-#include "uihost.h"
-
-#define EXPCOUNT 4
+#include <ncurses.h>
 
 
-uint8_t exp[EXPCOUNT];
+//Expression Variables
+int value0;
+int value1;
+int value2;
+int value3;
 
