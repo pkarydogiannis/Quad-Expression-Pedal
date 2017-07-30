@@ -1,3 +1,12 @@
+/*
+*	Author: Petros Karydogiannis
+*	
+*	TODO:
+*	•Use an  array for expression values
+*	•Modularize interface to make it reusable
+*	•Makefile
+*
+*/
 #include "header.h"
 #include "uihost.h"
 
@@ -12,6 +21,10 @@ int main(int argc, char const *argv[])
 
 	highlight = 0;
 	previous = 0;
+	value0 = 0;
+	value1 = 0;
+	value2 = 0;
+	value3 = 0;
 	do{
 		nodelay(stdscr, FALSE);
 		ch = getch();

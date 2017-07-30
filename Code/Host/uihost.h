@@ -10,6 +10,8 @@
 #define PAD 		8	//ncurses pads
 #define BIG_PAD 	16	//
 
+#define RESOLUTION 127
+
 //Menu Variables
 int highlight;
 int previous;
@@ -17,5 +19,5 @@ int previous;
 void initCurses(void);
 void initUI(void);
 void updateUI(int ch);
-
+void valueUpdate(int highlight, bool direction);
 #endif
