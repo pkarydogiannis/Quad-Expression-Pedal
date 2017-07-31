@@ -3,6 +3,8 @@
 *	
 *	TODO:
 *	•Use an  array for expression values
+*	•Map expression input[1] to outputs[4]
+*	•Comms
 *	•Modularize interface to make it reusable
 *	•Makefile
 *
